@@ -384,7 +384,9 @@ It means, that you need to specify the return strategy as a link to your TMA tha
 
 ```ts
 tonConnectUI.uiOptions = {
-    twaReturnUrl: 'https://t.me/durov'
+    actionsConfiguration: {
+        twaReturnUrl: 'https://t.me/durov'
+    }
 };
 ```
 
